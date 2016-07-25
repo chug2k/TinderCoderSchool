@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3F5C3B5A23BCD6792AF4BCA3956E16288DAD5290",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1E3B9FDE07B696BC24F762948DE34D317D587431" : 0,
+    "3F5C3B5A23BCD6792AF4BCA3956E16288DAD5290" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E7147F82-E181-4870-BB48-C57CCDBF374D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1E3B9FDE07B696BC24F762948DE34D317D587431" : "",
+    "3F5C3B5A23BCD6792AF4BCA3956E16288DAD5290" : "TinderCoderSchool\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TinderCoderSchool",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TinderCoderSchool.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:coderschool\/select-proj1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1E3B9FDE07B696BC24F762948DE34D317D587431"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:chug2k\/TinderCoderSchool.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3F5C3B5A23BCD6792AF4BCA3956E16288DAD5290"
+    }
+  ]
+}
