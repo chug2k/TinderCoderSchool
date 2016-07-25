@@ -9,10 +9,22 @@
 import UIKit
 
 class CardViewController: UIViewController {
-
+    
+    var initCenter: CGPoint?
+    
+    @IBOutlet weak var imageView: UIImageView!
+    
+    @IBAction func onDrag(sender: UIPanGestureRecognizer) {
+        let translation = sender.translationInView(view)
+        imageView.center = CGPointMake(initCenter!.x+translation.x, initCenter!.y+translation.y)
+        if sender.state == .Ended {
+            imageView.center = initCenter!
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        initCenter = imageView.center
     }
 
     override func didReceiveMemoryWarning() {
