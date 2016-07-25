@@ -38,8 +38,11 @@ class DraggableImageView: UIView {
     @IBAction func onDrag(sender: UIPanGestureRecognizer) {
         let translation = sender.translationInView(self.superview!)
         imageView.center = CGPointMake(initCenter.x + translation.x, initCenter.y + translation.y)
+        let divide = translation.x / 160
+        imageView.transform = CGAffineTransformMakeRotation(CGFloat.init(M_PI/4)*divide)
         if sender.state == .Ended {
             imageView.center = initCenter!
+            imageView.transform = CGAffineTransformMakeRotation(0)
         }
         
     }
