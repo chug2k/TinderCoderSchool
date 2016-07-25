@@ -12,6 +12,8 @@
 		569338E71D4639F400A353FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 569338E51D4639F400A353FC /* Main.storyboard */; };
 		569338E91D4639F500A353FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 569338E81D4639F500A353FC /* Assets.xcassets */; };
 		569338EC1D4639F500A353FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 569338EA1D4639F500A353FC /* LaunchScreen.storyboard */; };
+		569338F41D46414800A353FC /* DraggableImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 569338F31D46414800A353FC /* DraggableImageView.xib */; };
+		569338F61D4641D100A353FC /* DraggableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569338F51D4641D000A353FC /* DraggableImageView.swift */; };
 		A5B7476B9A74BDDE09E791D0 /* Pods_TinderCoderSchool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 467D20E9689AAE56B2DEED3D /* Pods_TinderCoderSchool.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +27,8 @@
 		569338E81D4639F500A353FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		569338EB1D4639F500A353FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		569338ED1D4639F500A353FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		569338F31D46414800A353FC /* DraggableImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DraggableImageView.xib; sourceTree = "<group>"; };
+		569338F51D4641D000A353FC /* DraggableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableImageView.swift; sourceTree = "<group>"; };
 		CBE21470E28ADC25EDDEB413 /* Pods-TinderCoderSchool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinderCoderSchool.release.xcconfig"; path = "Pods/Target Support Files/Pods-TinderCoderSchool/Pods-TinderCoderSchool.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,6 +68,8 @@
 				569338E11D4639F400A353FC /* AppDelegate.swift */,
 				569338E31D4639F400A353FC /* CardViewController.swift */,
 				569338E51D4639F400A353FC /* Main.storyboard */,
+				569338F31D46414800A353FC /* DraggableImageView.xib */,
+				569338F51D4641D000A353FC /* DraggableImageView.swift */,
 				569338E81D4639F500A353FC /* Assets.xcassets */,
 				569338EA1D4639F500A353FC /* LaunchScreen.storyboard */,
 				569338ED1D4639F500A353FC /* Info.plist */,
@@ -151,6 +157,7 @@
 			files = (
 				569338EC1D4639F500A353FC /* LaunchScreen.storyboard in Resources */,
 				569338E91D4639F500A353FC /* Assets.xcassets in Resources */,
+				569338F41D46414800A353FC /* DraggableImageView.xib in Resources */,
 				569338E71D4639F400A353FC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				569338E41D4639F400A353FC /* CardViewController.swift in Sources */,
+				569338F61D4641D100A353FC /* DraggableImageView.swift in Sources */,
 				569338E21D4639F400A353FC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
